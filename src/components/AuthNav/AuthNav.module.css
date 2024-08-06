@@ -1,0 +1,9 @@
+.authNav {
+    display: flex;
+    gap: 10px;
+}
+
+.authLink {
+    text-decoration: none;
+    color: white;
+}

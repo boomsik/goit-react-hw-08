@@ -1,0 +1,9 @@
+.navLink {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navLink.active {
+    text-decoration: underline;
+}

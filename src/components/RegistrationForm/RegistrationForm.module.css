@@ -1,0 +1,15 @@
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formField {
+    width: 100%;
+}
+
+.error {
+    color: red;
+}

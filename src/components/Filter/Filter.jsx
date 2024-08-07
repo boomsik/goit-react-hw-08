@@ -1,13 +1,14 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setFilter } from "../../redux/filters/slice";
-import { getFilter } from "../../redux/filters/selectors";
+import { getFilter } from "../../redux/filters/selectors"; // или selectNameFilter, если такое название
+
 import { TextField } from "@mui/material";
 import styles from "./Filter.module.css";
 
 const Filter = () => {
     const dispatch = useDispatch();
-    const filter = useSelector(getFilter);
+    const filter = useSelector(getFilter); // или selectNameFilter, если такое название
 
     const handleChange = (e) => {
         dispatch(setFilter(e.target.value));
